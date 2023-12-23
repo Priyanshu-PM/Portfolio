@@ -20,11 +20,11 @@ import {
   tesla,
   shopify,
   carrent,
-  jobit,
-  tripguide,
+  learnease,
+  aurora,
+  presence,
   threejs,
 } from "../assets";
-
 export const navLinks = [
   {
     id: "about",
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Flutter Developer",
     icon: creator,
   },
 ];
@@ -198,9 +198,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "LearnEase",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web based platform that personalize learning, automate quizzes, and dynamically engage students. Educators benefit from streamlined assessments and analytics in a user-friendly interface.",
     tags: [
       {
         name: "react",
@@ -215,50 +215,54 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: learnease,
+    source_code_link: "https://github.com/Priyanshu-PM/LearnEase",
   },
   {
-    name: "Job IT",
+    name: "Aurora-AI",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to explore advanced code generation, streamlined image processing, and efficient video and music management—all in one user-friendly hub.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nextjs",
         color: "green-text-gradient",
       },
       {
         name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        name: "Open-AI",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: aurora,
+    source_code_link: "https://github.com/Priyanshu-PM/aurora",
   },
   {
-    name: "Trip Guide",
+    name: "Presence-App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The presence app enables the institute, students and faculties to take attendance in an effecient and easy way. Allows teachers to manage classes and easily generate attendance list.",
     tags: [
       {
-        name: "nextjs",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Dart",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: presence,
+    source_code_link: "https://github.com/Priyanshu-PM/Presence_Attendance",
   },
 ];
 
